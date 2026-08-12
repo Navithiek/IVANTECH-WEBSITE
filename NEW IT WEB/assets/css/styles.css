@@ -1,0 +1,18 @@
+/* Converted core styles from React project index.css (Tailwind import removed).
+   This file contains the design tokens and key styles used by the IVANTECH theme. */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+:root{--bg:#080810;--red:#C8102E;--teal:#00C4B4;--white:#f0f0f8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--white);font-family:Inter,system-ui,sans-serif}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;border-radius:8px;border:none;cursor:pointer;text-decoration:none}
+.btn-primary{background:linear-gradient(135deg,#d91232 0%,#C8102E 60%);color:#fff}
+
+/* Basic utilities to make the starter pages look right. Full CSS is available in the original project. */
+
+/* Preserve some tokens used by PHP templates */
+:root{--bg-2:#0d0d18;--surface:rgba(255,255,255,0.03);--muted:rgba(240,240,248,0.45)}
+
+.site-header a{color:var(--white);text-decoration:none;font-weight:700}
+
+/* Basic responsiveness */
+@media(max-width:640px){main{padding:24px}}
